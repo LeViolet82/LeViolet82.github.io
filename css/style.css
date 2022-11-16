@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 100px 9%;
+    background: linear-gradient(45deg, deeppink, #2980b9);
+    display: flex;
+}
+
+.title {
+    font-size: 25px;
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+.container .profile {
+    flex: 1 1 400px;
+    background-color: white;
+    padding: 20px 30px;
+    text-align: center;
+    position: sticky;
+    top: 20px;
+    left: 0;
+    border-right: 2px solid #333;
+    align-self: flex-start;
+}
+
+.container .profile img {
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.container .profile h3 {
+    font-size: 25px;
+    color: #333;
+}
+
+.container .profile h5 {
+    font-size: 15px;
+    color: #333;
+    padding-top: 10px;
+}
+
+.container .information {
+    flex: 1 1 1000px;
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.container .information .introduce p {
+    font-size: 17px;
+    line-height: 2;
+    padding-bottom: 10px;
+    color: #777
+}
+
+.container .information .introduce .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container .information .introduce .box-container .box {
+    flex: 1 1 250px;
+}
+
+.container .information .introduce .box-container .box h3 {
+    font-size: 15px;
+    padding: 10px 0;
+    color: #333
+}
+
+.container .information .introduce .box-container .box h3 span {
+    color: #777;
+}
+
+.container .information .education {
+    font-size: 17px;
+    line-height: 2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #777
+}
+
+
+.container .information .skills {
+    padding: 20px 0;
+}
+
+.container .information .skills .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container .information .skills .box-container .box {
+    flex: 1 1 17px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    background: #eee;
+}
+
+.container .information .skills .box-container .box img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.container .information .skills .box-container .box h3 {
+    font-size: 15px;
+    color: #777;
+}
+
+.container .information .school {
+    margin: 20px 0;
+}
+
+.container .information .school .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container .information .school .box-container .box {
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 350px;
+    background: #eee;
+}
+
+.container .information .school .box-container .box span {
+    color: #2980b9;
+    font-size: 15px;
+}
+
+.container .information .school .box-container .box h3 {
+    color: #333;
+    font-size: 17px;
+    padding: 5px 0;
+}
+
+.container .information .school .box-container .box p {
+    color: #777;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.container .information .certificate {
+    font-size: 17px;
+    line-height: 2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #777
+}
+
+.container .information .certificate span {
+    color: #333;
+    font-weight: 700;
+}
